@@ -1,0 +1,124 @@
+/* color-main: #1c1c1c
+secondary: #5800FF
+main-text: #eeeee
+buttons: #E900FF
+details: #FFC600 
+
+https://colorhunt.co/palette/0000005800ffe900ffffc600*/
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1c1c1c;
+    color: #eeeeee;
+}
+
+footer{
+    font-size: x-small;
+    font-weight: lighter;
+    width: 100%;
+}
+
+h1 {
+    color: #E900FF;
+}
+
+h3 {
+    color: #FFC600;
+}
+
+h4 {
+    font-size: small;
+    font-weight: lighter;
+    color: #eeeeee70;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+.input {
+    border: 2px solid #E900FF;
+}
+
+.input:focus-within {
+    border: 3px solid #E900FF;
+}
+
+.top {
+    padding-top: 30px;
+}
+
+.mid {
+    margin: 50px;
+}
+ 
+.results{
+    visibility: hidden;
+    display: flex;
+    align-self: center;
+
+}
+.motto {
+    visibility: hidden;
+    padding: 20px;
+}
+
+.searchbtn {
+    background-color: #E900FF;
+    border-color: #FFC600;
+    border-radius: 10px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+.searchbtn:hover {
+
+    background-color: #FFC600;
+    border-color: #E900FF;
+    border-radius: 10px;
+    box-shadow: 3px 6px 6px #ed51fc6d;
+}
+
+
+
+.movie {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    align-self: center;
+    padding: 20px;
+}
+
+
+.genres,
+.summary,
+.lableName,
+.title {
+    padding: 10px;
+    color: #eeeeee;
+}
+
+.ShowInfo {
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+    padding: 20px;
+}
+
+
+
+#moviesLists {
+    display: flex;
+    align-self: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TV Shows</title>
+    <!-- AXIOS DELIVERY -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<!-- BOOTSTRAP STYLES -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <!-- COSTUME STYLES -->
+    <link rel="stylesheet" href="shows.css">
+</head>
+
+<body>
+    <div class="flex-wrapper">
+    <div class="top">
+        <h1>Find me a show.</h1>
+    </div>
+ <div class="mid">
+    <form action="" id="searchForm">
+    <input class="input"type="text" placeholder="Show title" name="query">
+    <button class="searchbtn btn btn-primary">Search</button>
+  
+</form>
+<div class="results">
+<ul id="moviesList"></ul>
+
+</div>
+</div> 
+
+   
+
+<footer> 
+    <h3 class="motto">Search, until you dont know what to watch. 📺</h3>
+
+    <h4>made by How to was your time?</h4>
+</footer>
+    </div>
+    <script src="shows.js"></script>
+</body>
+</html>
